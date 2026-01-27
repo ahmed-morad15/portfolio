@@ -352,11 +352,6 @@ article {
 article .icon {
   cursor: default;
 }
-.article-container,
-.experience-details-container {
-  width: 100%;
-  box-sizing: border-box;
-}
 
 /* PROJECTS SECTION */
 
