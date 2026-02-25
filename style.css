@@ -451,7 +451,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 50vh;
+  height: 70vh;
 }
 
 .contact-info-upper-container {
@@ -463,6 +463,7 @@ article .icon {
   background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
+  flex-wrap: wrap;   
 }
 
 .contact-info-container {
