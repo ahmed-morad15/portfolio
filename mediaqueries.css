@@ -101,3 +101,35 @@
     text-align: justify;
   }
 }
+@media screen and (max-width: 992px) {
+  #services .about-containers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #services .about-containers {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 992px) {
+  #experience .article-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  #experience .details-container:first-child .article-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 992px) {
+  #projects .about-containers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #projects .about-containers {
+    grid-template-columns: 1fr;
+  }
+}
